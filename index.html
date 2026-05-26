@@ -1,177 +1,195 @@
 <!DOCTYPE html>
-<html lang="Pt-BR">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="description"
+        content="Portfólio de Sérgio Sousa, desenvolvedor front-end com projetos em HTML, CSS, JavaScript e React."
+    >
+    <title>Sérgio Sousa | Portfólio Front-End</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Work+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./assets/styles/style.css">
     <link rel="stylesheet" href="./assets/styles/reset.css">
-    <link rel="stylesheet" href="./assets/styles//response.css"/>
-
-
-    <title>SergioSousa</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/styles/response.css">
 </head>
 <body>
-    <header>
-        <img class="logo" src="./assets/image/logo.png" alt="Logo do site"/>
-        <nav>
+    <header class="site-header">
+        <a class="brand" href="#inicio" aria-label="Ir para o topo do portfólio">
+            <img class="logo" src="./assets/image/logo.png" alt="Logo do portfólio de Sérgio Sousa">
+        </a>
+
+        <nav aria-label="Navegação principal">
             <ul>
-                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre-mim">Sobre mim</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#experiencias">Experiências</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#contatos">Contato</a></li>
-            </ul>      
+            </ul>
         </nav>
-        <a href="./assets/document/curiculo unifatecie.pdf" download>
-            <button class="btn-cv">Baixar CV<i class="bi bi-arrow-bar-down"></i></button>
-        </a>
+
+        <div class="header-actions">
+            <button class="theme-toggle" type="button" aria-label="Alternar tema" aria-pressed="false">
+                <i class="bi bi-moon-stars"></i>
+                <span>Tema</span>
+            </button>
+            <a href="./assets/document/curriculum.pdf" download class="btn-cv">
+                <span>Baixar CV</span>
+                <i class="bi bi-arrow-bar-down"></i>
+            </a>
+        </div>
     </header>
 
-    <sec>
-        <section class="principal-home">
+    <main>
+        <section class="principal-home" id="inicio">
             <div class="apresentation-home">
-                <h1>Olá, eu sou o Sérgio Sousa</h1>
-                <h1>Desenvolvedor Front-End</h1>
-                <h1>aqui no Brasil</h1>
-                <p>Sou professor de formação, tenho minha especialização em Paisagem para o Turismo pela UPE e atualmente decidi seguir carreira como desenvolvedor Front-End. Concluir meu cusro de Tecnólogo em Análise e Desenvolvimento de Sistemas pela UINIFATECIE e estou sempre me atulizando com jornadas de tecnologia, Bootcamps na DIO, Cursos na Hocketseat, Alura e inglês no Duolingo. Durante minha trajetória, há uns dois anos, decidi iniciar profissionalmente, fiz meu portifólio e que espero render bons frutos de trabalho durante minha jornada.</p>
-                <div class="social-midia">
-                    <a href="https://www.linkedin.com/in/sergiosousa-tec/" target="_blank"><i class="bi bi-linkedin" style="font-size: 2rem; color: #000000;"></i></a>
-                    <a href="https://www.facebook.com/sergioturgeo" target="_blank"><i class="bi bi-facebook" style="font-size: 2rem; color: #000000"></i></a>
-                    <a href="https://github.com/sergiosousacode" target="_blank"><i class="bi bi-github" style="font-size: 2rem; color: #000000;"></i></a>
-                    <a href="https://www.instagram.com/siga_sergio/" target="_blank"><i class="bi bi-instagram" style="font-size: 2rem; color: #000000;"></i></a>
+                <p class="eyebrow">Desenvolvedor Front-End no Brasil</p>
+                <h1>Construo interfaces responsivas, práticas e pensadas para pessoas.</h1>
+                <p>
+                    Sou Sérgio Sousa, professor de formação e desenvolvedor front-end em transição consolidada para tecnologia.
+                    Concluí o tecnólogo em Análise e Desenvolvimento de Sistemas pela UNIFATECIE atualmente estou me especializando em Desenvolvimento Web
+                    Full Stack pela UNIESP/João Pessoa. Continuamente me preparo para minha carreira internacional estudando Inglês e Espanhol.
+                </p>
+                <p>
+                    Hoje concentro meu trabalho em criar experiências claras, responsivas e funcionais com HTML, CSS,
+                    JavaScript e React, sempre com foco em evolução contínua atualmente com Java no que gera valor de verdade em cada entrega.
+                </p>
+
+                <div class="hero-cta">
+                    <a class="btn-primary" href="#projetos">Ver projetos</a>
+                    <a class="btn-secondary" href="https://wa.me/+5581994518370?text=Olá, Bom te ver aqui!" target="_blank" rel="noreferrer">
+                        Falar comigo
+                    </a>
+                </div>
+
+                <div class="social-midia" aria-label="Redes sociais">
+                    <a href="https://www.linkedin.com/in/sergiosousa-tec/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://www.facebook.com/sergioturgeo" target="_blank" rel="noreferrer" aria-label="Facebook">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="https://github.com/sergiosousacode" target="_blank" rel="noreferrer" aria-label="GitHub">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/siga_sergio/" target="_blank" rel="noreferrer" aria-label="Instagram">
+                        <i class="bi bi-instagram"></i>
+                    </a>
                 </div>
             </div>
+
             <div class="image-avatar">
-                <img src="./assets/image/avatar.jpg" alt="Imagem de um desenvolvedor front-end"/>
+                <img src="./assets/image/avatar.jpg" alt="Avatar ilustrado de Sérgio Sousa">
             </div>
         </section>
-<!-- section skills -->
+
         <section class="section-skills" id="skills">
-            <h2>Minhas Skills</h2>
+            <div class="section-heading">
+                <p class="eyebrow">Tecnologias</p>
+                <h2>Skills que sustentam meu trabalho no dia a dia</h2>
+            </div>
+
             <div class="container-skills">
-                <div class="skill-item">
-                    <i class="bi bi-filetype-css" style="font-size: 6.25rem"></i>
-                    <i class="bi bi-filetype-js" style="font-size: 6.25rem"></i>
-                    <i class="bi bi-filetype-html" style="font-size: 6.25rem"></i>
-                    <i class="bi bi-filetype-ppt" style="font-size: 6.25rem"></i>
-                    <i class="bi bi-filetype-sql" style="font-size: 6.25rem;"></i>
-                    <i class="bi bi-amazon" style="font-size: 6.25rem"></i>
-                    <i class="bi bi-ubuntu" style="font-size: 6.25rem"></i>
-                    <i class="bi bi-git" style="font-size: 6.25rem"></i>
-                    <i class="bi bi-github" style="font-size: 6.25rem"></i>
-                    <i class="bi bi-microsoft" style="font-size: 6.25rem"></i>
-                    <i class="bi bi-file-excel" style="font-size: 6.25rem"></i>
-                    <i class="bi bi-file-earmark-word" style="font-size: 6.25rem"></i>
-                    <i class="bi bi-filetype-json" style="font-size: 6.25rem"></i>
-                    <i class="bi bi-bootstrap" style="font-size: 6.25rem"></i>
+                <div class="skill-item" aria-label="Lista de skills">
+                    <div class="skill-card"><i class="bi bi-filetype-html"></i><span>HTML5</span></div>
+                    <div class="skill-card"><i class="bi bi-filetype-css"></i><span>CSS3</span></div>
+                    <div class="skill-card"><i class="bi bi-filetype-js"></i><span>JavaScript</span></div>
+                    <div class="skill-card"><i class="bi bi-filetype-java"></i><span>Java</span></div>
+                    <div class="skill-card"><i class="bi bi-filetype-jsx"></i><span>React</span></div>
+                    <div class="skill-card"><i class="bi bi-bootstrap"></i><span>Bootstrap</span></div>
+                    <div class="skill-card"><i class="bi bi-git"></i><span>Git</span></div>
+                    <div class="skill-card"><i class="bi bi-github"></i><span>GitHub</span></div>
+                    <div class="skill-card"><i class="bi bi-filetype-json"></i><span>JSON</span></div>
+                    <div class="skill-card"><i class="bi bi-filetype-sql"></i><span>SQL</span></div>
+                    <div class="skill-card"><i class="bi bi-amazon"></i><span>AWS</span></div>
+                    <div class="skill-card"><i class="bi bi-ubuntu"></i><span>Ubuntu</span></div>
+                    <div class="skill-card"><i class="bi bi-microsoft"></i><span>Office</span></div>
+                    <div class="skill-card"><i class="bi bi-windows"></i><span>Windows</span></div>
                 </div>
             </div>
         </section>
-        <!-- section experiencia -->
+
         <section class="section-experiencia" id="experiencias">
-            <h2>Experiências</h2>
-            <div class="experiencia">
+            <div class="section-heading">
+                <p class="eyebrow">Trajetória</p>
+                <h2>Experiência profissional e base de atendimento ao cliente</h2>
+            </div>
+
+            <article class="experiencia">
                 <div class="cabecalho-esquerdo">
-                    <i class="bi bi-google" style="font-size: 2rem;"></i>
-                    <h3>Revenda de Software - Empreendedor</h3>
+                    <i class="bi bi-google" aria-hidden="true"></i>
+                    <h3>Revenda de Software | Empreendedor</h3>
                 </div>
                 <span>Janeiro 2014 - Atual</span>
-                <p>Desenvolendo atividades de vendas de software de automação comercial, prestando suporte remoto, instalação, treinamento e migração de banco de dados. Em sua maioria a instalação é em um servidor e um terminal, funcionando em rede e com instalação de aplicação. Montamos também maquinas físicas e cabeamento em rede local.  </p>
-            </div>
-            <!-- <div class="experiencia">
-                <div class="cabecalho-esquerdo">
-                    <i class="bi bi-google" style="font-size: 2rem;"></i>
-                    <h3>Freelancer - Remoto</h3>
-                </div>
-                <span>Outubro/2025</span>
-                <p>Atuo como desenvolvedor Front-End Jr, focando na criação de interfaces responsivas e funcionais para websites e aplicações web. Utilizo tecnologias como HTML, CSS e JavaScript para garantir uma experiência de usuário otimizada. Trabalho em colaboração com designers e outros desenvolvedores para implementar soluções eficazes que atendam às necessidades dos clientes.</p>
-            </div>
-            <div class="experiencia">
-                <div class="cabecalho-esquerdo">
-                    <i class="bi bi-youtube" style="font-size: 2rem;"></i>
-                    <h3>Freelancer - Remoto</h3>
-                </div>
-                <span>Outubro/2025</span>
-                <p>Atuo como desenvolvedor Front-End Jr, focando na criação de interfaces responsivas e funcionais para websites e aplicações web. Utilizo tecnologias como HTML, CSS e JavaScript para garantir uma experiência de usuário otimizada. Trabalho em colaboração com designers e outros desenvolvedores para implementar soluções eficazes que atendam às necessidades dos clientes.</p>
-            </div> -->
-
-            
+                <p>
+                    Atuo com vendas de software de automação comercial, suporte remoto, instalação, treinamento e migração
+                    de banco de dados. Essa vivência fortaleceu minha comunicação, organização, visão de negócio e capacidade
+                    de resolver problemas com foco no usuário final.
+                </p>
+            </article>
         </section>
-        <!-- section sobre mim -->
-         <section class="sobre" id="sobre-mim">
+
+        <section class="sobre" id="sobre-mim">
             <div class="container-sobre">
                 <div class="image-sobre">
-                    <img src="./assets/image/perfil-editado.png" alt="Imagem de um desenvolvedor front-end"/>
+                    <img src="./assets/image/perfil-editado.png" alt="Foto de perfil de Sérgio Sousa">
                 </div>
+
                 <div class="detail-sobre">
-                    <h2>Sobre Mim</h2>
+                    <p class="eyebrow">Sobre mim</p>
+                    <h2>Minha transição para tecnologia foi guiada por constância e prática.</h2>
                     <p>
-                      Sou professor de formação, tenho minha especialização em Paisagem para o Turismo pela UPE e atualmente decidi seguir carreira como desenvolvedor Front-End. Concluir meu cusro de Tecnólogo em Análise e Desenvolvimento de Sistemas pela UINIFATECIE e estou sempre me atulizando com jornadas de tecnologia, Bootcamps na DIO, Cursos na Hocketseat, Alura e inglês no Duolingo. Durante minha trajetória, há uns dois anos, decidi iniciar profissionalmente, fiz meu portifólio e que espero render bons frutos de trabalho durante minha jornada.  
+                        Minha transição de carreira veia de Professor de História para Tecnologia, tenho especialidade Latu Senso em Paisagem para o Turismo no NE do Brasil, 
+                        e trouxe dessa jornada dedicação, aprendizado e muita persistência em aprender um novo idioma (Inglês e Espanhol)
+                        Em minha jornada, segui a trilha como Front-End, finalizei meu curso em Análise e Desenvolvimento de Sistemas pela UNIFATECIE
+                        e atualmente estou me Especializando em Full Stack em Desenvolvimento Web pela UNIESP/João Pesso-PB. 
+                    </p>
+                    <p>
+                        Meu objetivo com este portfólio é mostrar projetos e atividades como desenvolvedor, assim como aumentar meu NetWork
+                        apresentando soluções e contribuindo na comunidade.
                     </p>
                 </div>
             </div>
-            
-         </section>
-<!-- section projetos -->
-         <section>
-             <div class="container-projetos" id="projetos">
-                <h2>Meus projetos</h2>
-                <div class="projeto-item">
-                    <div class="projeto-image">
-                        <img src="./assets/image/lista de compras.png" alt="projeto lista de compras"/>
-                    </div>
-                    <div class="projeto-detail">
-                        <h3>Lista de Compras Web</h3>
-                        <p>Projeto desenvovido como desafio codante. O objetivo principal é criar uma lista de compras dinâmica para te ajudar a lembrar quais itens comprar no supermercado! Pratica de conceitos fundamentais de React com este Mini Projeto.. </p>
-                        <a href="https://mp-lista-de-compras-em-react-henna.vercel.app/" target="_blank">Link Demonstração</a>
-                        <br>
-                        <a href="https://github.com/SergioDevSousa/mp-lista-de-compras-em-react.git">Repo</a>
-                    </div>
-                </div>
+        </section>
 
-                <div class="projeto-item">
-                    <div class="projeto-image">
-                        <img src="./assets/image/jogo da advinhacao.png" alt="projeto jogo adivinhacao"/>
-                    </div>
-                    <div class="projeto-detail">
-                        <h3>Jogo da Advinhação</h3>
-                        <p>Este projeto é um jogo de adivinhação de palavras simples onde você se diverte e estuda ao mesmo tempo. Desenvolvido em JavaScript, HTML e CSS, o jogador precisa adivinhar uma palavra secreta, recebendo dicas e feedback a cada tentativa. Vamos conhecer? </p>
-                        <a href="https://imersao-alura-wine.vercel.app/" target="_blank">Link Demonstração</a>
-                        <br>
-                        <a href="https://github.com/SergioDevSousa/imersao-alura.git" target="_blank">Repo</a>
-                    </div>
-                </div>
+        <section class="section-projetos" id="projetos">
+            <div class="section-heading">
+                <p class="eyebrow">Portfólio</p>
+                <h2>Projetos selecionados</h2>
+                <p class="section-description">
+                    Uma seleção de trabalhos que mostram minha evolução com interfaces, consumo de dados e componentes interativos.
+                </p>
+            </div>
 
-                 <div class="projeto-item">
-                    <div class="projeto-image">
-                        <img src="./assets/image/pokedex.png" alt="projeto pokedex"/>
-                    </div>
-                    <div class="projeto-detail">
-                        <h3>Pokedex</h3>
-                        <p>Este projeto foi desenvolvido na trilha da DIO onde utilizamos uma API pokemon para consumir e mostrar em um contexto. Desenvolvido em JavaScript, HTML e CSS é preciso apenas clicar no seu pokemon prefeirdo e ver todas as ações. Muito legal! </p>
-                        <a href="https://js-developer-pokedex-beta-vert.vercel.app/" target="_blank">Link Demonstração</a>
-                        <br>
-                        <a href="https://github.com/SergioDevSousa/js-developer-pokedex.git" target="_blank">Repo</a>
-                    </div>
-                </div>
-            </div>
-            
-         </section>
-<!-- rodape -->
-         <footer id="contatos">
-            <div class="btn-topo">
-                <button class="btn-topo" onclick="topFunction()">Voltar ao Topo ↑</button>
-            </div>
-            <div class="btn-contatos">
-                <a href="https://wa.me/+5581994518370?text=Olá, Bom te ver aqui!" target="_blank">Whatsapp<i class="bi bi-whatsapp" style="font-size: 1rem; color: #000000; padding: 3px;"></i></a>
-                <!-- <a href="mailto:devserjao@gmail.com?subject=Assunto" target="_blank">Email<img src="./assets/image/icon/Mailing.png" alt="Icone email"/></a> -->
-            </div>
-            <p>© 2025 Sérgio Sousa. Todos os direitos reservados.</p>
-         </footer>
-
-<script src="./assets/script/script.js"></script>         
+            <div class="projects-list" id="projects-list" aria-live="polite"></div>
+        </section>
     </main>
-    
+
+    <footer id="contatos">
+        <button class="btn-topo" type="button" onclick="topFunction()">Voltar ao topo ↑</button>
+
+        <div class="btn-contatos">
+            <a href="https://wa.me/+5581994518370?text=Olá, Bom te ver aqui!" target="_blank" rel="noreferrer">
+                WhatsApp
+                <i class="bi bi-whatsapp"></i>
+            </a>
+            <a href="mailto:devserjao@gmail.com">
+                E-mail
+                <i class="bi bi-envelope"></i>
+            </a>
+        </div>
+
+        <p>© 2026 Sérgio Sousa. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="./assets/script/script.js"></script>
 </body>
 </html>

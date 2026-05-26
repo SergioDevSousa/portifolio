@@ -1,54 +1,51 @@
-# 💼 Portfólio — Serjão Sousa
+# Portfólio - Sérgio Sousa
 
-Portfólio pessoal desenvolvido para apresentar meus projetos, habilidades e experiências como **Desenvolvedor Front End**.  
-Interface limpa, responsiva e focada em mostrar minha trajetória no mundo do código.
+Portfólio pessoal desenvolvido para apresentar projetos, habilidades e experiências como desenvolvedor front-end.
 
-📸 Screenshots
+## Destaques
+
+- Layout renovado com visual mais atual
+- Modo dark com persistência no navegador
+- Estrutura responsiva para desktop, tablet e mobile
+- Seção de projetos renderizada por JavaScript para facilitar novas inclusões
+
+## Preview
 
 ![Telas](assets/image/vetor_pc_mobile.png)
 
-🎥 **Vídeo Demonstração:** 
-[Ver Vídeo](https://drive.google.com/file/d/1ZJPXJMSzfYgF_UGboJweMg1v6RJqFIVu/view?usp=sharing)
+## Links
 
-🔗 **Acesse online:** [portifoliosergiosousacode.netlify.app](https://portifoliosergiosousacode.netlify.app/)
+- Site: https://portifoliosergiosousacode.netlify.app/
+- Vídeo: https://drive.google.com/file/d/1ZJPXJMSzfYgF_UGboJweMg1v6RJqFIVu/view?usp=sharing
+- Figma: https://www.figma.com/proto/ux8qPpDddFM78JbjT3jxZO/portifolio-profissional?node-id=2-70&t=s2C3MNSJrgeJDCKs-1
 
-🎨 **Protótipo no Figma:** [Ver protótipo](https://www.figma.com/proto/ux8qPpDddFM78JbjT3jxZO/portifolio-profissional?node-id=2-70&t=s2C3MNSJrgeJDCKs-1)
+## Tecnologias
 
----
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap Icons
 
-## 🧠 Tecnologias utilizadas
-- HTML5  
-- CSS3  
-- JavaScript  
-- Git & GitHub  
-- Netlify
-- Bootstrap
+## Como editar os projetos
 
----
+Os cards da seção de projetos são gerados em `assets/script/script.js`.
 
-## ⚙️ Como rodar localmente
-```bash
-git clone https://github.com/sergiosousacode/portifolio.git
-cd portifolio
-# se usar npm:
-npm install
-npm run dev
-# ou se for só HTML/CSS/JS estático, abre o index.html direto no navegador
-```
+Para adicionar um novo projeto, basta inserir mais um objeto no array `projects` com:
 
-🛠️ Próximos passos
+- `title`
+- `image`
+- `alt`
+- `description`
+- `demo`
+- `repo`
+- `tags`
 
-Adicionar modo escuro
-Criar versão multilíngue (pt/en)
+## Como visualizar localmente
 
-🧩 Funcionalidades
+Como este é um projeto estático, você pode abrir o arquivo `index.html` diretamente no navegador.
 
-- Apresentação pessoal
-- Exposição dos principais projetos
-- Links diretos para GitHub e redes
-- Design responsivo para mobile e desktop
+## Próximos passos sugeridos
 
-💷Integrar animações com JS ou React
-
-🧾 Repositório GitHub: github.com/sergiosousacode/portifolio
-💙 Feito com dedicação por Serjão Sousa
+- Adicionar filtro por tecnologia nos projetos
+- Criar versão bilíngue em `pt-BR` e `en`
+- Incluir métricas reais de impacto em cada projeto
