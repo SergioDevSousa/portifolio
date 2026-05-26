@@ -1,7 +1,7 @@
 const projects = [
     {
         title: "Lista de Compras Web",
-        image: "./assets/image/lista de compras.png",
+        image: "https://drive.google.com/file/d/1mF3y8_CvpZLGRaR-CIyu3D1Fm0DykG8Q/view?usp=drive_link",
         alt: "Tela do projeto Lista de Compras Web",
         description:
             "Mini aplicação em React criada para organizar itens de compra com interação dinâmica, foco em usabilidade e fluxo simples para o usuário.",
@@ -11,7 +11,7 @@ const projects = [
     },
     {
         title: "Jogo da Adivinhação",
-        image: "./assets/image/jogo da advinhacao.png",
+        image: "https://drive.google.com/file/d/1Y5gZJDs4Cbj_SbMCBdtqk9D9nzFzQja0/view?usp=drive_link",
         alt: "Tela do projeto Jogo da Adivinhação",
         description:
             "Jogo educativo com HTML, CSS e JavaScript em que o usuário tenta descobrir uma palavra secreta por meio de dicas e feedback a cada tentativa.",
@@ -21,7 +21,7 @@ const projects = [
     },
     {
         title: "Pokedex",
-        image: "./assets/image/pokedex.png",
+        image: "https://drive.google.com/file/d/13wK4xrJmeqQJwxhmQ33mUVkIap_YZ9Kd/view?usp=drive_link",
         alt: "Tela do projeto Pokedex",
         description:
             "Projeto com consumo de API para listar Pokémons e apresentar detalhes de cada item, reforçando prática com requisições, renderização e interface responsiva.",
@@ -31,7 +31,7 @@ const projects = [
     },
     {
         title: "Robo_ANVISA",
-        image: "./assets/image/projeto_robo.png",
+        image: "https://drive.google.com/file/d/1zj0gBQglgwVym7NEH1sA4hZAfcT5Z1Wo/view?usp=drive_link",
         alt: "Aplicação que filtra e seleciona dados em um PDF",
         description:
             "Um Projeto de grande utilidade onde podemos extrair dados do PDF da Publicação do DO. Assim podemos gerar um relatório, exportar como csv e exportar como json os dados estraídos para trabalho.",
@@ -41,7 +41,7 @@ const projects = [
     },
     {
         title: "Meu site",
-        image: "./assets/image/site_ampla.png",
+        image: "https://drive.google.com/file/d/1aaNo-rpat3OMn5cKFooMPA7OhMBynExK/view?usp=drive_link",
         alt: "Site ampla tecserv",
         description:
             "Site hospedado em MVP na AWS, serve de aplicação de serviços que trabalho. Utilizamos docker, JavaScript, CSS, HTML, TailwindCSS.",
