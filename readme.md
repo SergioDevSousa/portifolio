@@ -11,7 +11,7 @@ Portfólio pessoal desenvolvido para apresentar projetos, habilidades e experiê
 
 ## Preview
 
-![Telas](assets/image/vetor_pc_mobile.png)
+![Telas](assets/image/preview.png)
 
 ## Links
 
