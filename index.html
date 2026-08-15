@@ -7,7 +7,7 @@
         name="description"
         content="Portfólio de Sérgio Sousa, desenvolvedor front-end com projetos em HTML, CSS, JavaScript e React."
     >
-    <title>Sérgio Sousa | Portfólio Front-End</title>
+    <title>Portfólio Sérgio Sousa</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -16,13 +16,14 @@
     >
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="stylesheet" href="./assets/styles/var.css">
     <link rel="stylesheet" href="./assets/styles/style.css">
     <link rel="stylesheet" href="./assets/styles/response.css">
 </head>
 <body>
     <header class="site-header">
         <a class="brand" href="#inicio" aria-label="Ir para o topo do portfólio">
-            <img class="logo" src="./assets/image/logo.png" alt="Logo do portfólio de Sérgio Sousa">
+            <img class="logo" src="./assets/image/logo sergio.png" alt="Logo do portfólio de Sérgio Sousa">
         </a>
 
         <nav aria-label="Navegação principal">
@@ -69,25 +70,10 @@
                         Falar comigo
                     </a>
                 </div>
-
-                <div class="social-midia" aria-label="Redes sociais">
-                    <a href="https://www.linkedin.com/in/sergiosousa-tec/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
-                        <i class="bi bi-linkedin"></i>
-                    </a>
-                    <a href="https://www.facebook.com/sergioturgeo" target="_blank" rel="noreferrer" aria-label="Facebook">
-                        <i class="bi bi-facebook"></i>
-                    </a>
-                    <a href="https://github.com/sergiosousacode" target="_blank" rel="noreferrer" aria-label="GitHub">
-                        <i class="bi bi-github"></i>
-                    </a>
-                    <a href="https://www.instagram.com/siga_sergio/" target="_blank" rel="noreferrer" aria-label="Instagram">
-                        <i class="bi bi-instagram"></i>
-                    </a>
-                </div>
             </div>
 
             <div class="image-avatar">
-                <img src="./assets/image/avatar.jpg" alt="Avatar ilustrado de Sérgio Sousa">
+                <img src="./assets/image/perfil-novo.png" alt="Avatar ilustrado de Sérgio Sousa">
             </div>
         </section>
 
@@ -113,6 +99,8 @@
                     <div class="skill-card"><i class="bi bi-ubuntu"></i><span>Ubuntu</span></div>
                     <div class="skill-card"><i class="bi bi-microsoft"></i><span>Office</span></div>
                     <div class="skill-card"><i class="bi bi-windows"></i><span>Windows</span></div>
+                    <div class="skill-card"><i class="bi bi-filetype-sql"></i><span>PostgresSQL</span></div>
+                    <div class="skill-card"><i class="bi bi-filetype-sql"></i><span>MySQL</span></div>
                 </div>
             </div>
         </section>
@@ -135,12 +123,32 @@
                     de resolver problemas com foco no usuário final.
                 </p>
             </article>
+            <article class="experiencia">
+                <div class="cabecalho-esquerdo">
+                    <i class="bi bi-google" aria-hidden="true"></i>
+                    <h3>Análise e Desenvolvimento de Sistemas | Formação</h3>
+                </div>
+                <span>Outubro 2025 - Concluído</span>
+                <p>
+                    Desenvolvimento e análise de aplicações, lógica de programação, programação orientada a objetos, desenvolvimento web, estruturas de dados, modelagem e gerenciamento de bancos de dados, engenharia de software e análise de requisitos. Conhecimentos em testes e qualidade de software, redes e segurança, arquitetura de computadores, gestão de projetos de TI e fundamentos de ciência de dados. Capacidade de analisar requisitos, estruturar soluções e desenvolver sistemas seguindo boas práticas de desenvolvimento.
+                </p>
+            </article>
+            <article class="experiencia">
+                <div class="cabecalho-esquerdo">
+                    <i class="bi bi-google" aria-hidden="true"></i>
+                    <h3>MBA Full Stack em Desenvolvimento Web | Especialização</h3>
+                </div>
+                <span>Em andamento</span>
+                <p>
+                    Formação prática em desenvolvimento de aplicações web Full Stack, abrangendo arquitetura e design de software, tecnologias front-end e back-end, Spring, microsserviços, Angular, MERN, Cloud Computing, DevOps e automação de testes. Desenvolvimento de projetos com metodologia hands-on, integrando conhecimentos técnicos, gestão, negócios e práticas modernas de engenharia de software.
+                </p>
+            </article>
         </section>
 
         <section class="sobre" id="sobre-mim">
             <div class="container-sobre">
                 <div class="image-sobre">
-                    <img src="./assets/image/perfil-editado.png" alt="Foto de perfil de Sérgio Sousa">
+                    <img src="./assets/image/perfil-novo.png" alt="Foto de perfil de Sérgio Sousa">
                 </div>
 
                 <div class="detail-sobre">
@@ -173,21 +181,67 @@
         </section>
     </main>
 
-    <footer id="contatos">
-        <button class="btn-topo" type="button" onclick="topFunction()">Voltar ao topo ↑</button>
-
-        <div class="btn-contatos">
-            <a href="https://wa.me/+5581994518370?text=Olá, Bom te ver aqui!" target="_blank" rel="noreferrer">
-                WhatsApp
-                <i class="bi bi-whatsapp"></i>
-            </a>
-            <a href="mailto:devserjao@gmail.com">
-                E-mail
-                <i class="bi bi-envelope"></i>
+    <footer class="site-footer" id="contatos">
+        <div class="footer-cta">
+            <div>
+                <p class="eyebrow">Vamos trabalhar juntos?</p>
+                <h2>Tem um projeto em mente?</h2>
+                <p>Estou disponível para conversar sobre oportunidades, ideias e soluções digitais.</p>
+            </div>
+            <a class="footer-cta-button" href="mailto:devserjao@gmail.com">
+                Iniciar uma conversa
+                <i class="bi bi-arrow-up-right" aria-hidden="true"></i>
             </a>
         </div>
 
-        <p>© 2026 Sérgio Sousa. Todos os direitos reservados.</p>
+        <div class="footer-content">
+            <div class="footer-about">
+                <a class="footer-brand" href="#inicio" aria-label="Voltar ao início">
+                    <img src="./assets/image/logo sergio.png" alt="" aria-hidden="true">
+                    <span>Sérgio Sousa</span>
+                </a>
+                <p>Desenvolvedor Full Stack criando experiências digitais claras, responsivas e funcionais.</p>
+                <span class="footer-availability">
+                    <span aria-hidden="true"></span>
+                    Disponível para novos projetos
+                </span>
+            </div>
+
+            <nav class="footer-nav" aria-label="Navegação do rodapé">
+                <h3>Navegação</h3>
+                <ul>
+                    <li><a href="#sobre-mim">Sobre mim</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experiencias">Experiências</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="footer-contact">
+                <h3>Contato</h3>
+                <a href="mailto:devserjao@gmail.com">
+                    <i class="bi bi-envelope" aria-hidden="true"></i>
+                    devserjao@gmail.com
+                </a>
+                <a href="https://wa.me/5581994518370?text=Olá,%20bom%20te%20ver%20aqui!" target="_blank" rel="noreferrer">
+                    <i class="bi bi-whatsapp" aria-hidden="true"></i>
+                    WhatsApp
+                </a>
+                <div class="footer-social" aria-label="Redes sociais">
+                    <a href="https://www.linkedin.com/in/sergiosousa-tec/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://github.com/sergiosousacode" target="_blank" rel="noreferrer" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                    <a href="https://www.instagram.com/siga_sergio/" target="_blank" rel="noreferrer" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Sérgio Sousa. Feito com dedicação no Brasil.</p>
+            <button class="btn-topo" type="button" onclick="topFunction()" aria-label="Voltar ao topo da página">
+                Voltar ao topo
+                <i class="bi bi-arrow-up" aria-hidden="true"></i>
+            </button>
+        </div>
     </footer>
 
     <script src="./assets/script/script.js"></script>

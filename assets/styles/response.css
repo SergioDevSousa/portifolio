@@ -45,8 +45,7 @@
 
     .header-actions,
     .hero-cta,
-    .project-links,
-    .btn-contatos {
+    .project-links {
         flex-direction: column;
     }
 
@@ -54,9 +53,25 @@
     .btn-cv,
     .btn-primary,
     .btn-secondary,
-    .project-links a,
-    .btn-contatos a {
+    .project-links a {
         width: 100%;
+    }
+
+    .footer-cta {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .footer-cta-button {
+        width: 100%;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-about {
+        grid-column: 1 / -1;
     }
 
     .principal-home,
@@ -105,5 +120,22 @@
 
     .skill-item {
         grid-template-columns: 1fr;
+    }
+
+    .site-footer {
+        border-radius: 26px;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-about {
+        grid-column: auto;
+    }
+
+    .footer-bottom {
+        align-items: flex-start;
+        flex-direction: column;
     }
 }
