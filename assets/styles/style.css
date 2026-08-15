@@ -142,7 +142,7 @@ nav a:focus-visible::after {
 .btn-cv,
 .btn-primary {
     background: var(--title);
-    color: #fff;
+    color: var(--bg);
     padding: 0.95rem 1.25rem;
     font-weight: 700;
 }
